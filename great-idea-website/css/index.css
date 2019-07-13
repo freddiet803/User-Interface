@@ -73,17 +73,33 @@ h1, h2, h3, h4, h5 {
 
 header {
 	margin-top: 50px;
+	
+	text-align: center;
+	
 }
 header nav{
 	display: inline-block;
+	text-align: center;
+	padding-bottom: 20px;
+	
 }
 
 header nav a {
 	margin: 0px 20px 0px 20px;
+	color: grey;
+	text-decoration: none;
+	transition: all 1s ease-in-out;
+}
+
+header nav a:hover {
+	font-size: 15px;
+	color: black;
+
 }
 
 header .logo {
 	margin-left: 140px;
+	text-align: center;
 }
 
 .largeH1 {
@@ -172,5 +188,7 @@ footer {
 	text-align: center;
 }
 
-
+p {
+	font-family: "Rajdhani", sans-serif;
+}
 
